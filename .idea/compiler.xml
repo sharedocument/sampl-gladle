@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
-    </annotationProcessing>
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/main/java/com/khmersolution/moduler/domain/User.java" />
+    </excludeFromCompile>
     <bytecodeTargetLevel>
       <module name="Moduler_main" target="1.8" />
       <module name="Moduler_test" target="1.8" />

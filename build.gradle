@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '1.5.6.RELEASE'
+        springBootVersion = '1.5.9.RELEASE'
         swaggerBaseVersion = '2.7.0'
         postgresVersion = '9.4-1206-jdbc42'
     }

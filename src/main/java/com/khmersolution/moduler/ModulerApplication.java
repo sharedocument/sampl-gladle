@@ -49,12 +49,12 @@ public class ModulerApplication implements CommandLineRunner {
     @Override
     @Transactional
     public void run(String... args) throws Exception {
-//        initUsers();
-//        initRoles();
-//        initPermissions();
-//        assignPermissionsToRoles();
-//        assignRolesToUsers();
-//        listAllData();
+        initUsers();
+       initRoles();
+        initPermissions();
+        assignPermissionsToRoles();
+        assignRolesToUsers();
+        listAllData();
     }
 
     private void initRoles() {
